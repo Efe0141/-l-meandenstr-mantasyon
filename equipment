@@ -1,0 +1,20 @@
+Proje Teknik Detayları
+Kontrol Algoritması: PID (Proportional-Integral-Derivative).
+Kritik İster: Yük Bozulması Reddi (Load Disturbance Rejection).
+Ölçüm Metodu: Donanımsal Kesme (Interrupt) tabanlı enkoder okuma.
+Parça Adı,Model/Özellik,Açıklama
+Mikrodenetleyici,Arduino Nano (ATmega328P),Sistemin ana işlem birimi ve PID hesaplama merkezi.
+DC Motor,JGA12-N20B 12V 300RPM,"Enkoderli, metal redüktörlü mikro DC motor."
+Geri Besleme,Hall Effect Enkoder,Motor milindeki hız değişimini anlık ölçmek için kullanılır.
+Motor Sürücü,DRV8833 Modülü,"Çift kanallı H-Köprüsü, N20 motorlar için yüksek verimli sürücü."
+Parça Adı,Model/Özellik,Açıklama
+Güç Kaynağı,2 x 18650 Li-ion Pil,7.4V nominal gerilim; yük altında yüksek akım kararlılığı sağlar.
+Pil Yuvası,2'li 18650 Pil Yatağı,Güvenli güç bağlantısı için muhafaza.
+Parça Adı,Model/Özellik,Açıklama
+Haberleşme,HC-05 Bluetooth Modülü,Kablosuz hız komutu gönderme ve telemetri verisi izleme.
+Görselleştirme,16x2 LCD (I2C Modüllü),Anlık SetPoint ve ölçülen RPM değerlerini görüntüleme.
+Parça Adı,Model/Özellik,Açıklama
+Motor Tutucu,Mini Metal N20 Braket,Motorun tork etkisini absorbe etmek için mekanik sabitleme.
+Tekerlek,3mm D-Şaft Geçmeli Set,"Motor miline tam uyumlu, kayma yapmayan yük uygulama yüzeyi."
+Bağlantı,Büyük Boy Breadboard,Devre elemanlarının lehimsiz prototiplenmesi için.
+Kablolama,Jumper Kablo Seti,Erkek-Erkek ve Erkek-Dişi sinyal bağlantıları için.
